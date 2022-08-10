@@ -1,0 +1,22 @@
+{
+  "collaborators": [
+    {
+      "name": "Angela",
+      "image": "../../../assets/images/angela_dp.png",
+      "gender": "female"
+    },
+    { "name": "Chris", "image": "", "gender": "male" }
+  ],
+  "messages": [
+    {
+      "name": "Chris Webber",
+      "messages": "Hi Michael! How are You?",
+      "dp": ""
+    },
+    {
+      "name": "Kelvin Durant ",
+      "messages": "Do you need that design?",
+      "dp": ""
+    }
+  ]
+}

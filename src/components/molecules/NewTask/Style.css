@@ -1,0 +1,77 @@
+/* form .task_title, */
+.add_collaborators,
+.time_to_complete,
+.hours_budgeted {
+  border-bottom: 1px solid #e8edf1;
+  padding: 1.19rem 0;
+}
+
+form,
+.task_title,
+.time_to_complete .input_wrapper,
+.hours_budgeted {
+  width: 100%;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  height: 6.43rem;
+  justify-content: space-between;
+}
+
+form .title {
+  margin-bottom: 1.13rem;
+}
+
+.hours_budgeted {
+  display: flex;
+  flex-direction: column;
+}
+form button {
+  padding: 0.5rem 1.34rem;
+  box-shadow: 0px 8px 20px rgba(227, 232, 238, 0.24);
+  border-radius: 0.5rem;
+  align-self: flex-end;
+  margin-top: 2rem;
+  border-color: transparent;
+  background-color: #4ba8a8;
+  color: #fff;
+}
+form button:disabled,
+form button[disabled] {
+  background-color: #e3e8ee;
+}
+.add_collaborator,
+.collaborators {
+  width: 100%;
+}
+.add_collaborators .collaborators {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add_collaborators .add_collaborator_btn,
+.add_collaborators .add_collaborator_next_btn {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #e8edf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #232360;
+}
+
+.add_collaborators .add_collaborator_btn:hover {
+  background-color: #4ba8a8;
+  cursor: pointer;
+  color: #fff;
+}
+
+.add_collaborators .add_collaborator_next_btn {
+  background-color: #4ba8a8;
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+.main_page_right_messages{
+    padding: 0.93rem 0;
+    width: 100%;
+}
+
+.main_page_right_messages .all_messages{
+    height: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  /* width: 200px; */
+  width:5.5%;
+  background-color: #FBFAFF;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.wrapper a {
+  display: block;
+  /* color: black; */
+  padding: 16px;
+  text-decoration: none;
+}

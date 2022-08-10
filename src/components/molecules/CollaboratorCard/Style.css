@@ -1,0 +1,41 @@
+.collaborator_card_wrapper {
+  display: flex;
+  padding: 0.43rem;
+  border-radius: 1.25rem;
+  justify-content: space-between;
+  width: 6.49rem;
+  align-items: center;
+}
+.collaborator_card_left {
+  display: flex;
+  align-items: center;
+}
+.collaborator_card_wrapper img {
+  width: 1.71rem;
+  height: 1.57rem;
+  border-radius: 50%;
+  margin-right: 0.22rem;
+}
+
+.collaborator_female {
+  background-color: #e8e8ff;
+  color: #5051f9;
+}
+.collaborator_card_wrapper .close_btn {
+  width: 0.57rem;
+  height: 0.57rem;
+  display: flex;
+  align-items: center;
+}
+.collaborator_female svg {
+  fill: #5051f9;
+}
+
+.collaborator_male {
+  background-color: #e5f5ff;
+  color: #1ea7ff;
+}
+
+.collaborator_male svg {
+  fill: #1ea7ff;
+}
