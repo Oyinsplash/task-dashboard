@@ -38,8 +38,7 @@ form button {
   border-color: transparent;
   background-color: #4ba8a8;
   color: #fff;
-    transition: all .5s;
-
+  transition: all 0.5s;
 }
 form button:disabled,
 form button[disabled] {
@@ -65,8 +64,7 @@ form button[disabled] {
   align-items: center;
   justify-content: center;
   color: #232360;
-      transition: all .5s;
-
+  transition: all 0.5s;
 }
 
 .add_collaborators .add_collaborator_btn:hover {
@@ -78,5 +76,35 @@ form button[disabled] {
 .add_collaborators .add_collaborator_next_btn {
   background-color: #4ba8a8;
   cursor: pointer;
-  color: #fff;
+}
+.add_collaborators .add_collaborator_next_btn svg {
+  fill: #fff;
+}
+.emoji_bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.emoji_wrapper svg {
+  fill: #4ba8a8;
+  transition: fill .5s;
+}
+.emoji_wrapper svg:hover {
+  fill: rgba(248, 180, 0, 1);
+  cursor: pointer;
+}
+.emoji_wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.emoji_wrapper svg:nth-child(1) {
+  margin-right: 1rem;
+}
+.emoji_wrapper svg:last-child {
+  margin-left: 1rem;
 }

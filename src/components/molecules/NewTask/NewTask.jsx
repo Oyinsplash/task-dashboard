@@ -3,7 +3,8 @@ import "./Style.css";
 import { Emoji, Input } from "../../atoms";
 import data from "../../../data/data.json";
 import CollaboratoryCard from "../CollaboratorCard/CollaboratoryCard";
-import { ReactComponent as Next } from "../../../assets/icons/next.svg";
+import Next from "../../../assets/icons/next";
+import Prev from "../../../assets/icons/prev";
 
 const initialData = {
   title: "",
@@ -61,8 +62,8 @@ function NewTask({ state, setState }) {
           onChange={handleChange}
         />
         <div className="emoji_bar">
-          
           <div className="emoji_wrapper">
+            <Prev />
             <Emoji symbol="🎉" label="party popper" />
             <Emoji symbol="😍" label="Smiling Face with Heart-Eyes" />
             <Emoji symbol="😀" label="Grinning Face" />
@@ -72,6 +73,7 @@ function NewTask({ state, setState }) {
             <Emoji symbol="😎" label="Smiling Face with Sunglassesr" />
             <Emoji symbol="👩🏾" label="party popper" />
             <Emoji symbol="🙄" label=" Face with Rolling Eyes" />
+            <Next />
           </div>
         </div>
       </div>
