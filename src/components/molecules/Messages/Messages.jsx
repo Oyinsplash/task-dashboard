@@ -9,6 +9,7 @@ function Messages() {
       <div className="all_messages">
         {data.messages.map((message, index) => (
           <MessageCard
+            key={index}
             dp={message.dp}
             name={message.name}
             message={message.messages}
