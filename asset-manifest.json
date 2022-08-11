@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/task-dashboard/static/css/main.7ee99d26.css",
+    "main.js": "/task-dashboard/static/js/main.57daaf00.js",
+    "static/js/787.63e47474.chunk.js": "/task-dashboard/static/js/787.63e47474.chunk.js",
+    "static/media/logo.svg": "/task-dashboard/static/media/logo.d68253879184c59579617b70c0d8534e.svg",
+    "static/media/star.svg": "/task-dashboard/static/media/star.e321dfb4a7a62db6d968c82489bb9c54.svg",
+    "static/media/notification.svg": "/task-dashboard/static/media/notification.00366e3dd4a5804d2d138cc0e06de144.svg",
+    "static/media/search.svg": "/task-dashboard/static/media/search.40f6be7f1c6e1dc5af438133612fbb10.svg",
+    "static/media/greenline.svg": "/task-dashboard/static/media/greenline.8d871053b3ae7ff787fd9a67f34d3dcc.svg",
+    "static/media/goldline.svg": "/task-dashboard/static/media/goldline.48c8b0f104d88c187d0d801851614341.svg",
+    "static/media/redline.svg": "/task-dashboard/static/media/redline.dec609c33e826b292dc4d77497764d1f.svg",
+    "static/media/dropdown.svg": "/task-dashboard/static/media/dropdown.fe656a4dd0d91deb8542a4a3ccab1054.svg",
+    "index.html": "/task-dashboard/index.html",
+    "static/media/menuIcon.svg": "/task-dashboard/static/media/menuIcon.24bf0c57c2ba2afe8a1a782faa8af23a.svg",
+    "main.7ee99d26.css.map": "/task-dashboard/static/css/main.7ee99d26.css.map",
+    "main.57daaf00.js.map": "/task-dashboard/static/js/main.57daaf00.js.map",
+    "787.63e47474.chunk.js.map": "/task-dashboard/static/js/787.63e47474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ee99d26.css",
+    "static/js/main.57daaf00.js"
+  ]
+}
