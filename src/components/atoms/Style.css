@@ -65,10 +65,10 @@
 table {
   border-collapse: collapse;
   width: 100%;
-  /* border: 1px solid red; */
-  /* padding: 1.7rem 2.143rem 0 1.71rem; */
   transition: all 0.5s;
 }
+
+
 tr td {
   color: #1e1e1e;
 }
@@ -78,6 +78,7 @@ th {
   border-bottom: 1px solid #e8edf1;
   text-align: left;
   padding: 0.57rem 0;
+   max-width: 150px;
 }
 tr th {
   padding-top: 2rem;
