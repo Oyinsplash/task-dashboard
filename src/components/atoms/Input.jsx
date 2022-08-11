@@ -10,7 +10,7 @@ function Input({
   value,
   onChange,
 }) {
-  const handleFocus = (e) => (e.target.type = onFocus);
+  // const handleFocus = (e) => (e.target.type = onFocus);
   return (
     <div className={`input_wrapper ${className}`}>
       <input

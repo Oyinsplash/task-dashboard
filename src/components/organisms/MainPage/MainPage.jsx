@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Style.css";
 import { NewTask, Summary, Messages, TaskList, Chart } from "../../molecules";
 const dataFromLS = localStorage.getItem("tasks")
