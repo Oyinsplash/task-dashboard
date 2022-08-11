@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Style.css";
-import { Input } from "../../atoms";
+import { Emoji, Input } from "../../atoms";
 import data from "../../../data/data.json";
 import CollaboratoryCard from "../CollaboratorCard/CollaboratoryCard";
 import { ReactComponent as Next } from "../../../assets/icons/next.svg";
@@ -11,13 +11,9 @@ const initialData = {
   end: "",
   hoursBudgeted: "",
 };
-
-// dataFromLS ? JSON.parse(dataFromLS)
 function NewTask({ state, setState }) {
-  // console.log(dataFromLS);
   const [formData, setFormData] = useState(initialData);
 
-  // const [buttonState, setButtonState] = useState(true);
   const toggleBtn = () => {
     if (
       formData.title &&
@@ -30,9 +26,6 @@ function NewTask({ state, setState }) {
       return true;
     }
   };
-  // useEffect(() => {}, [formData]);
-  // useEffect(() => {});
-  // console.log(formData);
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -67,7 +60,20 @@ function NewTask({ state, setState }) {
           value={formData.title}
           onChange={handleChange}
         />
-        <div className="emoji_bar"></div>
+        <div className="emoji_bar">
+          
+          <div className="emoji_wrapper">
+            <Emoji symbol="🎉" label="party popper" />
+            <Emoji symbol="😍" label="Smiling Face with Heart-Eyes" />
+            <Emoji symbol="😀" label="Grinning Face" />
+            <Emoji symbol="🔥" label="Fire" />
+            <Emoji symbol="😘" label="Face Throwing a Kiss" />
+            <Emoji symbol="😉" label="Winking Face" />
+            <Emoji symbol="😎" label="Smiling Face with Sunglassesr" />
+            <Emoji symbol="👩🏾" label="party popper" />
+            <Emoji symbol="🙄" label=" Face with Rolling Eyes" />
+          </div>
+        </div>
       </div>
       <div className="add_collaborators">
         <p className="title">Add Collaborators</p>
@@ -123,7 +129,7 @@ function NewTask({ state, setState }) {
           value={formData.hoursBudgeted}
           onChange={handleChange}
         />
-   
+
         <button disabled={toggleBtn()} type="submit">
           Save
         </button>

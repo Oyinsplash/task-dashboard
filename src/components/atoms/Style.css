@@ -127,3 +127,7 @@ table progress::-moz-progress-bar {
 tr:hover {
   background-color: #4ba8a8;
 }
+
+.emoji{
+  margin: .5rem;
+}

@@ -32,7 +32,7 @@ main {
   background-color: #fff;
   margin: 1.5rem 0;
     padding:1.71rem 1.71rem ;
-
+border-radius: 1.142rem;
 }
 .main_page_task_done_top, .main_page_task_done_right{
   display: flex;

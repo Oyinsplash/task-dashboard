@@ -1,8 +1,7 @@
 .main_page_task_list {
-    /* margin-top: 1.571rem; */
   background-color: #fff;
-  /* border: 1px solid red; */
-padding: 1.7rem 0;
+  padding: 1.7rem 0;
+  border-radius: 1.143rem;
 }
 .main_page_task_list_top {
   display: flex;
