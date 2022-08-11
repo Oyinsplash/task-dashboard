@@ -1,3 +1,13 @@
-.main_page_task_list_top{
-    display: flex;
+.main_page_task_list {
+    margin-top: 1.571rem;
+  background-color: #fff;
+  /* border: 1px solid red; */
+padding: 1.7rem 0;
+}
+.main_page_task_list_top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.71rem;
 }

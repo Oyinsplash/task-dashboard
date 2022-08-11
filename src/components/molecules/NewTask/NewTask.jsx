@@ -77,6 +77,7 @@ function NewTask({ state, setState }) {
               style={collaborator.gender}
               name={collaborator.name}
               dp={collaborator.image}
+              key={index}
             />
           ))}
           <div className="add_collaborator_btn">

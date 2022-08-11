@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "./Style.css";
+import {ReactComponent as TableMenuIcon} from "../../assets/icons/menuIcon.svg"
+
 
 const tableHeaders = [
   "Name Of Task",
@@ -28,9 +30,17 @@ function Table({ state }) {
             <tr key={index}>
               <td>{data.title}</td>
               <td>{data.start}</td>
-              <td>{data.end}</td> <td>{data.title}</td>{" "}
+              <td>{data.end}</td>
               <td>{data.hoursBudgeted}</td>
-              <td>.</td>
+              <td>
+                <label for="file">60% complete</label>
+                <progress id="file" value="60" max="100">
+                  60%
+                </progress>
+              </td>
+              <td>
+                <TableMenuIcon />
+              </td>
             </tr>
           );
         })}

@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.85rem;
+  transition: all 0.5s;
 }
 
 .navlink_wrapper:hover {
@@ -43,18 +44,70 @@
   /* padding: 0.86rem; */
 }
 
-
 table {
   border-collapse: collapse;
   width: 100%;
+  /* border: 1px solid red; */
+  /* padding: 1.7rem 2.143rem 0 1.71rem; */
+  transition: all 0.5s;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td,
+th {
+  border: none;
+  border-bottom: 1px solid #e8edf1;
   text-align: left;
-  padding: 8px;
+  padding: 0.57rem 0;
+}
+tr th{
+  padding-top: 2rem;
 }
 
-tr:nth-child(even) {
+tr th:nth-child(1), tr td:nth-child(1){
+  padding-left: 1.71rem;
+}
+ tr th:nth-child(6), tr td:nth-child(6){
+  padding-right: 3rem;
+}
+
+tr,
+tbody {
+  transition: all 0.5s;
+  /* padding: 2rem; */
+  /* border: 1px solid blue; */
+}
+th {
+  text-transform: capitalize;
+}
+/* tr:nth-child(even) {
   background-color: #dddddd;
+} */
+tr td:nth-child(5) label {
+  display: block;
+}
+/* tr td:nth-child(6) label {
+} */
+table progress {
+  height: 0.36rem;
+  width: 11.57rem;
+  border-radius: 0.43rem;
+  
+}
+
+table progress::-webkit-progress-bar {
+  /* style rules */
+  background-color: #e3e8ee;
+  border-radius: 0.43rem;
+  border: 1px solid #fff;
+}
+table progress::-webkit-progress-value {
+  /* style rules */
+  background-color: #4ba8a8;
+  border-radius: 0.43rem;
+}
+table progress::-moz-progress-bar {
+  /* style rules */
+}
+tr:hover {
+  background-color: #4ba8a8;
 }
