@@ -28,3 +28,32 @@ main {
 #main_page_right_title {
   margin-bottom: 2rem;
 }
+.main_page_task_done{
+  background-color: #fff;
+  margin: 1.5rem 0;
+    padding:1.71rem 1.71rem ;
+
+}
+.main_page_task_done_top, .main_page_task_done_right{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.main_page_task_done_right{
+  width: 34%;
+}
+.main_page_task_done_toggle{
+  padding: 0 0.64rem;
+  color: #005555;
+  transition: all .5s;
+}
+.main_page_task_done_toggle:focus{
+color: #F8B400;
+border-bottom: 2px solid #F8B400;
+}
+
+.main_page_left_title{
+  font-size: 1.3rem;
+  color: #005555;
+  font-weight: 700;
+}

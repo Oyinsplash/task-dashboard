@@ -1,11 +1,11 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 import "./Style.css"
 function NavIcon({icon, children, path}) {
   return (
-    <div className="navlink_wrapper">
-      <img src={icon} alt="" />
-      <a href={path}>{children}</a>
-    </div>
+    <NavLink exact className="navlink_wrapper" to={path} activeClassName="active">
+      {children}
+    </NavLink>
   );
 }
 

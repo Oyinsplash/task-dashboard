@@ -1,14 +1,25 @@
 .wrapper {
   /* width: 200px; */
-  width:5.5%;
-  background-color: #FBFAFF;
+  width: 5.5%;
+  background-color: #fbfaff;
   position: fixed;
   height: 100%;
   overflow: auto;
+  padding: 1.786rem .8rem;
 }
 .wrapper a {
-  display: block;
-  /* color: black; */
-  padding: 16px;
   text-decoration: none;
+  margin: auto;
+}
+.logo a{
+  width: 3rem;
+}
+.navlinks a {
+  display: flex;
+  width: 2.575rem;
+  height: 2.813rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
