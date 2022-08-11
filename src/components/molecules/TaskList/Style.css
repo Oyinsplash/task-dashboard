@@ -1,5 +1,5 @@
 .main_page_task_list {
-    margin-top: 1.571rem;
+    /* margin-top: 1.571rem; */
   background-color: #fff;
   /* border: 1px solid red; */
 padding: 1.7rem 0;
@@ -10,4 +10,11 @@ padding: 1.7rem 0;
   justify-content: space-between;
   align-items: center;
   padding: 0 1.71rem;
+}
+.main_page_task_done{
+  background-color: #fff;
+  margin: 1.5rem 0;
+}
+.main_page_task_done_top{
+  padding:1.71rem 1.71rem ;
 }
